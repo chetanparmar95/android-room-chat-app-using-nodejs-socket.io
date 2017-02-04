@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="@dimen/_10sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/_40sdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="chetan"
+        android:textSize="@dimen/_12sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:background="@drawable/chat_rounder_border_from"
+        android:text="Hello"
+        android:textSize="@dimen/_12sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_chatMsg"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:textSize="@dimen/_6sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tv_chatMsg"
+        android:layout_alignEnd="@+id/tv_chatMsg" />
+
+
+
+</RelativeLayout>
